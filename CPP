@@ -1,0 +1,4 @@
+const int a = 5;
+	int *b = (int*)&a;
+	*b = 1;
+	std::cout <<a<< std::endl;
